@@ -15,3 +15,9 @@ $run_dev.*
 ^LICENSE\.md$
 ^README\.Rmd$
 ^CODE_OF_CONDUCT\.md$
+^testjs$
+^inst/node/node_modules$
+^codecov\.yml$
+^\.github$
+^Dockerfile$
+^\.dockerignore$

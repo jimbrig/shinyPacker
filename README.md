@@ -4,21 +4,13 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
+
 
 # shinyPacker
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![Codecov test coverage](https://codecov.io/gh/jimbrig/shinyPacker/branch/main/graph/badge.svg)](https://app.codecov.io/gh/jimbrig/shinyPacker?branch=main)
-[![R-CMD-check](https://github.com/jimbrig/shinyPacker/workflows/R-CMD-check/badge.svg)](https://github.com/jimbrig/shinyPacker/actions)
 <!-- badges: end -->
 
 The goal of shinyPacker is to ...

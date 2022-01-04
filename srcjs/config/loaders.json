@@ -6,5 +6,24 @@
       "@babel/core"
     ],
     "exclude": "/node_modules/"
+  },
+  {
+    "test": "\\.test\\.js$",
+    "use": [
+      "mocha-loader"
+    ],
+    "exclude": "/node_modules/"
+  },
+  {
+    "test": "\\.css$",
+    "use": [
+      "style-loader",
+      {
+        "loader": "css-loader",
+        "options": {
+          "modules": true
+        }
+      }
+    ]
   }
 ]
