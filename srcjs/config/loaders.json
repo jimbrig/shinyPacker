@@ -1,0 +1,10 @@
+[
+  {
+    "test": "\\.(js|jsx)$",
+    "use": [
+      "babel-loader",
+      "@babel/core"
+    ],
+    "exclude": "/node_modules/"
+  }
+]
